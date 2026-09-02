@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fb3fb3;
+    background: radial-gradient(circle, rgba(251, 63, 179, 0.62) 0%, rgba(216, 252, 70, 0.71) 100%);
+}
+
+.tela{
+    display: block;
+}
+
+.botao{
+    text-align: center;
+    padding: 10px;
+}
+
+.tela>h1{
+    padding: 10px;
+}
