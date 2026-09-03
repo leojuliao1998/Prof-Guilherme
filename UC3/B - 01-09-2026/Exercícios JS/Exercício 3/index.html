@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tela">
+        <div>
+            <h1 id="titulo">Exercício 3 - Pergunta</h1>
+        </div>
+
+        <div>
+            <h1> Pontos: <span id="pontos">0</span></h1>
+        </div>
+
+        <div>
+            <h2 id="questao">Qual a tag que conecta um elemento específico do arquivo "index.html" e pode ser utilizado no JavaScript para fazer modificações?</h2>
+        </div>
+
+        <div id="respostas">
+            <button id="btn1" onclick="verdadeiro(true)">document.getElementById("")</button>
+            <button id="btn2" onclick="verdadeiro(false)">document.querySelector("")</button>
+            <button id="btn3" onclick="verdadeiro(false)">.tag</button>
+            <button id="btn4" onclick="verdadeiro(false)">.addEventListener</button>
+        </div>
+
+        <div>
+            <button id="reiniciar" onclick="reiniciar()">Reinicar partida</button>
+            <h3 id="resultado"></h3>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
